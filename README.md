@@ -1,4 +1,3 @@
-# lab.github.io
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,14 +10,6 @@
     />
     <link rel="stylesheet" href="./styles/main.css" />
     <title>Lab 5</title>
-    <style type = "text/css">
-     body{
-     background-image: url(https://user-images.githubusercontent.com/79790495/112627089-1b443880-8e6c-11eb-940e-551f2ffbae92.png);
-     background-position: 100% center;
-     background-attachment: fixed;
-     background-repeat: repeat;
-     }
-    </style>
   </head>
   <body>
       <div class="page1">
@@ -26,7 +17,8 @@
     <nav class="navbar">
       <div class="content">
         <ul class="items">
-          <li class="menu-item">class="fa fa-bars" aria-hidden="true"></i>></a>
+          <li class="menu-item">
+            <a href="#" onclick="callMenu()"><i class="fa fa-bars" aria-hidden="true"></i></a>
           </li>
           <li><a href="#"><h1>SONS.MN</h1></a></li>
         </ul>
@@ -43,9 +35,9 @@
       </div>
       <section class="card-container">
           <div class="card">
-            < img src="http://www.sons.mn/files/news/TEG.jpg" width="120px" >
+            <img src="http://www.sons.mn/files/news/TEG.jpg" width="120px" >
             <div class="card-text">
-                < h2 class="card-header">
+                <h2 class="card-header">
                     ТЕГ: Хятад иргэд их хэмжээний бэлэн ба бэлэн бус валют хилээр нэвтрүүлсэн
                 </h2>
                 <div class="card-date">
